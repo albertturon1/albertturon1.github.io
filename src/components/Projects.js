@@ -11,7 +11,7 @@ export default function Projects() {
             <h1 className="text-black text-xl my-5">Projekty.</h1>
             <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-y-10 gap-x-5 sm:gap-x-8">
                 <Item technologies='React Native, Postgres, Firebase, Node.js' link={app} image={"https://res.cloudinary.com/dschnp3gj/image/upload/v1654018593/Screenshot_32_w4awuj.png"} title="Aplikacja społecznościowa - Lipiec 2022" active/>
-                <Item description='Prosta strona w JavaScript prentująca zespół Queen, które celem było stworzenie formularza z walidacją' technologies='React, Tailwind' link={queen} image={"https://imgur.com/S4p19Ek.jpg"} title="Walidacja formularza w JavaScript"  date={[2022, 6, 16]} />
+                <Item description='Strona w React prezentująca zespół Queen, której celem było stworzenie formularza z walidacją oraz stworzenie wyglądu od zera' technologies='React, Tailwind' link={queen} image={"https://imgur.com/S4p19Ek.jpg"} title="Walidacja formularza w JavaScript"  date={[2022, 6, 16]} />
                 {/* <Item description='React, react-query, Tailwind, Axios' link={newsportal} image={"https://imgur.com/fBRE6ne.jpg"} title="Wykorzystanie API Pexels"  date={[2022, 5, 31]} />
                 <Item description='Vanilla JS, Sass' link={bestseller} image={"https://imgur.com/JiuBRRs.jpg"} title="Scroll w JavaScript" date={[2018, 10, 22]} remasterDate={[2022, 5, 30]} /> */}
             </div>
